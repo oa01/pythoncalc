@@ -16,6 +16,9 @@ choice = 0
 
 
 class Ui_MainWindow(object):
+    def clear(self):
+        self.lineEdit_3.setText("")
+
 
     def add(self):
         global first_number
@@ -23,7 +26,7 @@ class Ui_MainWindow(object):
         global output
         first_number = self.lineEdit.text()
         second_number = self.lineEdit_2.text()
-        output = int(first_number) + int(second_number)
+        output = float(first_number) + float(second_number)
         self.lineEdit_3.setText(f"{output}")
         print(f"The Result is {output}")
 
@@ -33,7 +36,7 @@ class Ui_MainWindow(object):
         global output
         first_number = self.lineEdit.text()
         second_number = self.lineEdit_2.text()
-        output = int(first_number) * int(second_number)
+        output = float(first_number) * float(second_number)
         self.lineEdit_3.setText(f"{output}")
         print(f"The Result is {output}")
 
@@ -47,7 +50,7 @@ class Ui_MainWindow(object):
         else:
             first_number = self.lineEdit.text()
             second_number = self.lineEdit_2.text()
-            output = first_number / second_number
+            output = float(first_number) / float(second_number)
             self.lineEdit_3.setText(f"{output}")
             print(f"The Result is {output}")
 
@@ -57,7 +60,7 @@ class Ui_MainWindow(object):
         global output
         first_number = self.lineEdit.text()
         second_number = self.lineEdit_2.text()
-        output = int(first_number) - int(second_number)
+        output = float(first_number) - float(second_number)
         self.lineEdit_3.setText(f"{output}")
         print(f"The Result is {output}")
 
@@ -118,6 +121,7 @@ class Ui_MainWindow(object):
         self.pushButton.clicked.connect(self.multi)
         self.pushButton_5.clicked.connect(self.div)
         self.pushButton_6.clicked.connect(self.sub)
+        self.pushButton_3.clicked.connect(self.clear)
 
 
 
@@ -133,7 +137,7 @@ class Ui_MainWindow(object):
         self.label.setText(_translate("MainWindow", "1. Zahl"))
         self.label_2.setText(_translate("MainWindow", "2. Zahl"))
         self.label_3.setText(_translate("MainWindow", "Ergebinis"))
-        self.pushButton_3.setText(_translate("MainWindow", "calc"))
+        self.pushButton_3.setText(_translate("MainWindow", "clear"))
         self.menutaschenrechner.setTitle(_translate("MainWindow", "taschenrechner"))
 
 
