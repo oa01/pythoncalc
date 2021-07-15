@@ -1,6 +1,7 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 import PyQt5
+
 first_number = 0
 second_number = 0
 output = 0
@@ -21,6 +22,7 @@ class Ui_MainWindow(object):
         second_number = self.lineEdit_2.text()
         output = float(first_number) + float(second_number)
         self.lineEdit_3.setText(f"{output}")
+
         print(f"The Result is {output}")
 
     def multi(self):
@@ -37,12 +39,13 @@ class Ui_MainWindow(object):
         global first_number
         global second_number
         global output
+        first_number = self.lineEdit.text()
+        second_number = self.lineEdit_2.text()
         if second_number == 0:
             print("You cant divide by 0")
 
         else:
-            first_number = self.lineEdit.text()
-            second_number = self.lineEdit_2.text()
+
             output = float(first_number) / float(second_number)
             self.lineEdit_3.setText(f"{output}")
             print(f"The Result is {output}")
