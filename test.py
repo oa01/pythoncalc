@@ -35,3 +35,26 @@ def window():
     sys.exit(app.exec_())
 
 window()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+self.pushButton_2.clicked.connect(self.add)
+            self.pushButton.clicked.connect(self.multi)
+            self.pushButton_5.clicked.connect(self.div)
+            self.pushButton_6.clicked.connect(self.sub)
+            self.pushButton_3.clicked.connect(self.clear)
