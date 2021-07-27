@@ -1,6 +1,6 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-import PyQt5
+
 
 first_number = 0
 second_number = 0
@@ -12,7 +12,7 @@ choice = 0
 
 class Ui_MainWindow(object):
     def clear(self):
-        self.lineEdit_3.setText()
+        self.lineEdit_3.setText("")
 
     def add(self):
         global first_number
@@ -34,6 +34,7 @@ class Ui_MainWindow(object):
         output = float(first_number) * float(second_number)
         self.lineEdit_3.setText(f"{output}")
         print(f"The Result is {output}")
+
 
     def div(self):
         global first_number
