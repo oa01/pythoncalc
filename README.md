@@ -1,4 +1,7 @@
 # pythoncalc
+
+/github/languages/code-size/:blockcrafter21/:pythoncalc
+
 This little programm is a Calculator
 ## Installation  
 ### Installation on Windows
