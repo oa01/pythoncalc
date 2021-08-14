@@ -7,11 +7,13 @@
 # pythoncalc
 
 This little programm is a Calculator
+## Reqirements  
+Python3 and pyqt5
 ## Installation  
 ### Installation on Windows
 You can simply download the exe [here](https://github.com/blockcrafter21/pythoncalc/releases/download/v1.0.1/calc.exe)  
 ### Installation via Git on Linux
-!IMPORTANT! You bin z
+
 ` git clone https://github.com/blockcrafter21/pythoncalc.git`  
 Then 
 `cd pythoncalc` To go into the dir
