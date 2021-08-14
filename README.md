@@ -1,6 +1,5 @@
+https://img.shields.io/github/languages/code-size/blockcrafter21/pythoncalc?style=plastic
 # pythoncalc
-
-/github/languages/code-size/:blockcrafter21/:pythoncalc
 
 This little programm is a Calculator
 ## Installation  
