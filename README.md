@@ -10,7 +10,10 @@ This little programm is a Calculator
 ## Installation  
 ### Installation on Windows
 You can simply download the exe [here](https://github.com/blockcrafter21/pythoncalc/releases/download/v1.0.1/calc.exe)  
-### Installation via Git  
-
+### Installation via Git on Linux
+!IMPORTANT! You bin z
 ` git clone https://github.com/blockcrafter21/pythoncalc.git`  
-This works on all os!
+Then 
+`cd pythoncalc` To go into the dir
+After that execute this command:
+`python3 calc.py`
