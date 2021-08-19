@@ -6,7 +6,7 @@
 
 # pythoncalc
 
-This little programm is a Calculator
+This little programm is a Calculator which is written in python 3 using the pyqt5 framework 
 ## Reqirements  
 Python3 and pyqt5
 ## Installation  
